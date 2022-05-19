@@ -29,6 +29,10 @@ header a {
     line-height: .5rem;
 }
 
+header a:hover, form button:hover {
+    background-color: #1084d1;
+    cursor: pointer;
+}
 .container {
     margin: auto;
     background-color: #e5e5f7;
@@ -58,4 +62,8 @@ footer {
     text-align: center;
     display: flex;
     justify-content: space-around;
+}
+
+footer img:hover {
+    cursor:pointer;
 }
